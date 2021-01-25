@@ -94,7 +94,7 @@ func process(mdPath string) error {
 		}
 	}
 
-	err = textbundler.GenerateBundle(
+	err = Textbundler.GenerateBundle(
 		contents,
 		absMdPath,
 		creation,

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/russross/blackfriday/v2"
 	"github.com/zachlatta/textbundler/util"
-	blackfriday "gopkg.in/russross/blackfriday.v2"
 )
 
 // Textbundle represents a textbundle for transferring Markdown files between
